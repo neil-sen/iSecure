@@ -1,0 +1,30 @@
+extends layout
+
+block pageContent
+    h1= title
+    p Welcome to iMommy home
+
+    // Wrapper
+    #wrapper
+
+        // Notifications
+        h2 Notifications
+        #notification
+            table
+                thead
+                    th Time
+                    th Notification
+                    th Action
+                    tbody
+        // /Notifications
+        
+        //Current Image
+        #imageHolder
+         h2 Current Image
+         br
+         button(onClick=('btnRefresh()')) Refresh
+         p  
+            a(href:"link",title:"title")
+                img(align:"left",src="images/camera.jpg",border=0,width=600,height=338)
+        // /Current Image
+    // /WRAPPER

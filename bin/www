@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var debug = require('debug')('noderpi');
+var app = require('../app');
+
+app.set('port', process.env.PORT || 3000);
+/*app.set('key',process.env.API_KEY || 'c11b47df576a4481a53b6bb712be29bf');
+app.set('secret',process.env.API_SECRET || 'e1c99233dc10466488854512de55b064');
+app.set('serviceRoot',process.env.SERVICE_ROOT || 'http://api.skybiometry.com/fc/');*/
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
