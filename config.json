@@ -1,6 +1,6 @@
 {
-  "key": "c11b47df576a4481a53b6bb712be29bf",
-  "secret": "e1c99233dc10466488854512de55b064",
+  "key": "xxxxxxxxxxxxxxxxxxxxxxxx",
+  "secret": "xxxxxxxxxxxxxxxxxxxxxxxx",
   "serviceRoot": "http://api.skybiometry.com/fc/",
-  "prowlApiKey": "6e900a38e5dcb5703aaad1d86e4a8365aa1b914e"
+  "prowlApiKey": "xxxxxxxxxxxxxxxxxxxxxxxx"
 }
